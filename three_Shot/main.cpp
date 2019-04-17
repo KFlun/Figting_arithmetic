@@ -4,7 +4,7 @@ void judge(int a, int b[]);
 
 int main()
 {		
-	int holenum[9];
+	int holenum[9] = {0};
 	for (int i = 123; i <= 333; i++)
 	{
 		int i_2 = i * 2;
