@@ -31,3 +31,5 @@ https://www.luogu.org/problemnew/show/P1909
 ### 题目链接
 https://www.luogu.org/problemnew/show/P1008
 ### 感悟
+1、对一个集合中的元素是否符合标准，可以用 *计数器* 的思想。
+2、要满足一个条件不一定要用 *匹配* 的方式，也可以用 *创建* 的方式。
