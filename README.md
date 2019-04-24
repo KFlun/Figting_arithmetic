@@ -1,5 +1,5 @@
-# Figting_luogu
-洛谷刷关  
+# Figting_arithmetic
+fighting arithmetic!!!!  
 # 津津是否开心？？
 是一个寻找最大值的问题。___（写法有待改进，如：用对象来写）___
 ### 题目链接：
