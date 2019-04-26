@@ -71,3 +71,9 @@ https://www.luogu.org/problemnew/show/P1035
 ![image](https://github.com/KnifeofLondon/Figting_arithmetic/blob/master/%E8%92%99%E7%89%B9%E5%8D%A1%E6%B4%9B%E6%B3%951.png)
 ![image](https://github.com/KnifeofLondon/Figting_arithmetic/blob/master/%E8%92%99%E7%89%B9%E5%8D%A1%E6%B4%9B%E6%B3%952.png)
 ### 感悟
+*************************************************************
+# 小玉在游泳
+### 题目
+https://www.luogu.org/problemnew/show/P1423
+### 感悟
+无
