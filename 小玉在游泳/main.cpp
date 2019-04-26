@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int  steps; double tdistans, xdistans = 0; double  xdistans_1 = 2;
+	int   steps; double tdistans, xdistans = 0, xdistans_1 = 2;
 	cin >> tdistans;
 	for (steps = 1; xdistans <= tdistans; steps++)
 	{
