@@ -147,3 +147,14 @@ int judgement(int size, int arry[])
 	return count;
 }
 ```
+# 统计天数
+### 题目链接
+https://www.luogu.org/problemnew/show/P1567  
+### 感悟
+（无）
+# ISBN号码
+### 题目链接
+https://www.luogu.org/problemnew/show/P1055  
+### 感悟
+1、字符的计算都得用到ASCLL码表中所对应的编号。  
+2、字符串之间的比较实际上是对应ASCLL表对应编号进行比较。
