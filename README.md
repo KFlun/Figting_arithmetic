@@ -104,5 +104,46 @@ https://www.luogu.org/problemnew/show/P1046
 ### 题目链接
 https://www.luogu.org/problemnew/show/P1047
 ### 感悟
-仔细读题……注意考虑边界值。
+仔细读题…… **注意考虑边界值** 。
 *************************************************************
+# 小鱼的数字游戏
+### 题目链接
+https://www.luogu.org/problemnew/show/P1427
+### 感悟
+用for循环进行连续cin的时候，无论是在一行中输入还是每一行回车后再输入，不影响对循环退出条件的判断。
+***************************************************************
+# 小鱼比可爱
+### 题目链接
+https://www.luogu.org/problemnew/show/P1428
+### 感悟
+无
+***************************************************************
+# 珠心算测验
+### 题目链接
+https://www.luogu.org/problemnew/show/P2141
+### 感悟
+类似于约瑟夫环,以下为代码注释：
+```
+int judgement(int size, int arry[])
+{
+	int *arry_1 = new int[size];
+	for (int n = 0; n < size; n++)
+		arry_1[n] = arry[n];            //建立一个与arry的值对应相同的数组
+	int count = 0;                          //目的：使得第29行的操作不会影响到原数组进行循环判断
+	for (int i = 0; i < size; i++)
+		for (int j = i + 1; j < size; j++)
+		{
+			int num = arry[i] + arry[j];
+			for (int k = 0; k < size; k++)
+			{
+				if (arry_1[k] != 0 && num == arry_1[k] && arry[i] != num && arry[j] != num)
+				{
+					arry_1[k] = 0;    //当某数字出现一次与另外两数的和相等时，该数不再进行下一次判断，见if语句中的（arry_1[k] != 0）
+					count++;
+				}
+			}
+				
+		}
+	return count;
+}
+```

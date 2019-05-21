@@ -16,8 +16,8 @@ int judgement(int size, int arry[])
 {
 	int *arry_1 = new int[size];
 	for (int n = 0; n < size; n++)
-		arry_1[n] = arry[n];
-	int count = 0;
+		arry_1[n] = arry[n];            
+	int count = 0;                          
 	for (int i = 0; i < size; i++)
 		for (int j = i + 1; j < size; j++)
 		{
@@ -26,7 +26,7 @@ int judgement(int size, int arry[])
 			{
 				if (arry_1[k] != 0 && num == arry_1[k] && arry[i] != num && arry[j] != num)
 				{
-					arry_1[k] = 0;
+					arry_1[k] = 0;    
 					count++;
 				}
 			}
