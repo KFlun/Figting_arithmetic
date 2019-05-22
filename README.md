@@ -158,3 +158,16 @@ https://www.luogu.org/problemnew/show/P1055
 ### 感悟
 1、字符的计算都得用到ASCLL码表中所对应的编号。  
 2、字符串之间的比较实际上是对应ASCLL表对应编号进行比较。
+# Your_ride_is_here
+### 题目链接
+https://www.luogu.org/problemnew/show/P1200
+### 感悟
+1、string类才能识别字符串，用<cctype>中的isspace()方法进行比较。  
+2、注意string类中的size()方法返回的不是int类型，而是string::size_type类型的，对于此类型的细节说不清楚，但是确定的是他是一个无符号类型的值。我们不能用它和有符号数进行混合计算，否则会发生错误。例如下面的例子：
+```
+string a("a")
+int size=a.size();
+if(size<-1)
+	cout<<"1<-1";
+```
+我们可以预见，会输出：1<-1。
